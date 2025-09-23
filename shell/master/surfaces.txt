@@ -16,37 +16,131 @@ descript
 
 surface0
 {
-	collision0,0,0,130,65,head
+	element1,overlay,gem0.png,0,0
+}
+surface1
+{
+	element1,overlay,gem1.png,0,0
+}
+surface2
+{
+	element1,overlay,gem2.png,0,0
+}
+surface3
+{
+	element1,overlay,gem3.png,0,0
+}
+surface4
+{
+	element1,overlay,gem4.png,0,0
+}
+surface5
+{
+	element1,overlay,gem5.png,0,0
+}
+surface6
+{
+	element1,overlay,gem6.png,0,0
+}
+surface7
+{
+	element1,overlay,gem7.png,0,0
+}
+surface8
+{
+	element1,overlay,gem8.png,0,0
+}
+surface9
+{
+	element1,overlay,gem9.png,0,0
+}
+
+surface0-9
+{
+	animation1.interval,talk,20
+	animation1.pattern0,overlay,-1,0,0,0
+	animation1.pattern1,overlay,103,120,0,0
+	animation1.pattern2,overlay,104,120,0,0
+	animation1.pattern3,overlay,105,120,0,0
+	animation1.pattern4,overlay,104,120,0,0
+	animation1.pattern5,overlay,103,120,0,0
+	animation1.pattern6,overlay,-1,120,0,0
 	
-	//Example code for blink animation - uncomment if you want it
-	//animation0.interval,random,4
-	//animation0.pattern0,overlay,101,0,0,0
-	//animation0.pattern1,overlay,102,100,0,0
-	//animation0.pattern2,overlay,-1,50,0,0
+	animation3.interval,rarely
+	animation3.pattern0,overlay,200,0,0,0,0
+	animation3.pattern1,overlay,201,72,0,0,0
+	animation3.pattern2,overlay,202,72,0,0,0
+	animation3.pattern3,overlay,203,72,0,0,0
+	animation3.pattern4,overlay,202,72,0,0,0
+	animation3.pattern5,overlay,201,72,0,0,0
+	animation3.pattern6,overlay,202,72,0,0,0
+	animation3.pattern7,overlay,203,72,0,0,0
+	animation3.pattern8,overlay,202,72,0,0,0
+	animation3.pattern9,overlay,201,72,0,0,0
+	animation3.pattern10,overlay,202,72,0,0,0
+	animation3.pattern11,overlay,203,72,0,0,0
+	animation3.pattern12,overlay,202,72,0,0,0
+	animation3.pattern13,overlay,201,72,0,0,0
+	animation3.pattern14,overlay,200,72,0,0,0
+	animation3.pattern15,overlay,-1,72,0,0,0
 	
-	
-	//Example code for a talk animation - uncomment if you want it
-	// animation1.interval,talk,4
-	// animation1.pattern0,alternativestart,(2,3,4)
-	
-	// animation2.interval,never
-	// animation2.pattern0,overlay,103,0,0,0
-	// animation2.pattern1,overlay,104,200,0,0
-	// animation2.pattern2,overlay,-1,200,0,0
-	
-	// animation3.interval,never
-	// animation3.pattern0,overlay,103,0,0,0
-	// animation3.pattern1,overlay,-1,200,0,0
-	
-	// animation4.interval,never
-	// animation4.pattern0,overlay,104,0,0,0
-	// animation4.pattern1,overlay,105,200,0,0
-	// animation4.pattern2,overlay,-1,200,0,0
+	collisionex0,face,region,bigcol.png,0,0,255
 }
 
 //—————————————————————————————— Kero surfaces ——————————————————————————————
 
 surface10
 {
-	collision0,0,0,130,65,head
+	collisionex0,face,region,smallcol0.png,0,255,0
+}
+surface11
+{
+	collisionex0,face,region,smallcol1.png,0,255,0
+}
+surface12
+{
+	collisionex0,face,region,smallcol2.png,0,255,0
+}
+surface13
+{
+	collisionex0,face,region,smallcol3.png,0,255,0
+}
+surface14
+{
+	collisionex0,face,region,smallcol4.png,0,255,0
+}
+surface15
+{
+	collisionex0,face,region,smallcol5.png,0,255,0
+}
+surface16
+{
+	collisionex0,face,region,smallcol6.png,0,255,0
+}
+surface17
+{
+	collisionex0,face,region,smallcol7.png,0,255,0
+}
+surface18
+{
+	collisionex0,face,region,smallcol8.png,0,255,0
+}
+surface19
+{
+	collisionex0,face,region,smallcol9.png,0,255,0
+}
+
+surface10-19
+{
+	animation3.interval,rarely
+	animation3.pattern0,overlay,210,0,0,0,0
+	animation3.pattern1,overlay,211,0,0,0,0
+	animation3.pattern2,overlay,212,0,0,0,0
+	animation3.pattern3,overlay,211,72,0,0,0
+	animation3.pattern4,overlay,212,72,0,0,0
+	animation3.pattern5,overlay,211,72,0,0,0
+	animation3.pattern6,overlay,212,72,0,0,0
+	animation3.pattern7,overlay,211,72,0,0,0
+	animation3.pattern8,overlay,210,72,0,0,0
+	animation3.pattern9,overlay,-1,72,0,0,0
 }
