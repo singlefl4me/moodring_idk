@@ -57,6 +57,8 @@ surface9
 
 surface0-9
 {
+	element0,base,ring.png,0,0
+
 	animation1.interval,talk,20
 	animation1.pattern0,overlay,-1,0,0,0
 	animation1.pattern1,overlay,103,120,0,0
