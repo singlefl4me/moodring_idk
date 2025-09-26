@@ -50,7 +50,7 @@ OnWindowStateRestore
 //Tada! That's your url! Make sure you test it! The dev palette and script/network log can help with that
 On_homeurl
 {
-	""
+	"https://raw.githubusercontent.com/singlefl4me/moodring_idk/main/"
 }
 
 
@@ -68,6 +68,11 @@ FormatLinks : all
 	}
 }
 
+On_sakura.recommendbuttoncaption
+{
+	"Developers"
+}
+
 On_sakura.recommendsites
 {
 	FormatLinks(recommendsites_sakura)
@@ -76,7 +81,8 @@ On_sakura.recommendsites
 //These are the websites linked in the top option of the sakura's right click menu. The format is simple; write the label of the link on the left followed by a semicolon, and then on the right, the url to link to. These should be separate strings.
 recommendsites_sakura : array
 {
-	"Link label";	"https://link.example.com/link/to/whatever/here/"
+	"Contact idk";	"mailto:idk.ghostdev@gmail.com"
+	"Catchunks | Discord";	"https://discord.com"
 }
 
 On_sakura.portalsites 
@@ -84,22 +90,9 @@ On_sakura.portalsites
 	FormatLinks(portalsites_sakura)
 }
 
-//These are the websites linked in the second option of the sakura's right click menu. Same as above
-portalsites_sakura : array
-{
-	"Another link label";	"https://link.example.com/link/to/whatever/here/again/"
-	"A third link label";	"https://link.example.com/link/to/whatever/a/third/time/you/can/add/as/many/as/you/want/"
-}
-
 On_kero.recommendsites
 {
 	FormatLinks(recommendsites_kero)
-}
-
-//These are the websites linked in the first option of the kero's right click menu. Same as above
-recommendsites_kero : array
-{
-	"These labels can be anything you want";	"https://link.example.com/link/to/whatever/here/once/more/"
 }
 
 
