@@ -14,7 +14,7 @@ file,ghost/master/menu_kero.dicf9a40828196036f6ff632130722391f4size=762date=2
 file,ghost/master/menu_sakura.dica7e24bac3e4a1ec7b62a5e1d2c32752dsize=1677date=2025-09-22T18:36:53
 file,ghost/master/meta.dicffe1c90abd981da1744c9d175e5b2de2size=5953date=2025-09-22T18:36:53
 file,ghost/master/mouse.dic71078770a3539fd1e88d4abc4dfef5d7size=1117date=2025-09-26T01:49:42
-file,ghost/master/other.dic1e3a69615d52084d74e6d95200352945size=5670date=2025-09-26T03:15:57
+file,ghost/master/other.dic1e3a69615d52084d74e6d95200352945size=5670date=2025-09-26T03:35:11
 file,ghost/master/word.dic4aadbef943c9c7db17317d109ead5c73size=221date=2025-09-26T03:06:47
 file,ghost/master/yaya.dll7ca71c0691df0379655530fcf6d0fa7csize=884736date=2025-09-22T18:36:53
 file,ghost/master/yaya.txt0d2898287b1f9068c5f62489aebdc8dasize=727date=2025-09-22T18:36:53
