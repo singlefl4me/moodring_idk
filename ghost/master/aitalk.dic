@@ -13,6 +13,7 @@ OnAiTalk
 
 RandomTalk : nonoverlap_pool
 {
+	/*
 	"\0\s[0]Fill this with lots of random dialogue."
 	
 	//Some writing advice/inspo, since aitalk can be tough!
@@ -28,4 +29,56 @@ RandomTalk : nonoverlap_pool
 	"\0\s[0]A quick overview of the built in ways to address the user in this template, which are all decided through the SSP preferences:\w8\n%(username) %(they) %(them) %(their) %(theirs) %(themself)\w8\nAnd an example of the " + '%(p)' + " function: %(they) %(p('are','is')) working on a ghost"
 	
 	"\0\s[0]Make something cool, %(username)!\w8 You've got this!"
+	*/
+
+	"\0\s[0]... \w9\w9... \s[6]\w9\w9.\w9.\w9.\w9\w9\s[3]I don't think I can focus like this."
+	"\0\s[3]Can you please be a little quieter. \w9\w9Your high energy is interfering with my inner peace..."
+	"\0\s[6].\w9.\w9.\w9\s[4]\w9how can I expect to be able to meditate in these conditions?"
+	"\1\s[10].\w8.\w8.\w8\w8?\w8\0I am trying to obtain inner peace. \w9\w9Only then will everything become clear..."
+	"\0\s[6]%(nar_2)Focusing... mindfulness starts with listening to body as it is.%(end_2)"
+	"\0\s[0]Hm... If the two of us aren't the only ones here... \s[6]\w9\w9\nI can't seem to sense any other being's presence currently..."
+	"\0\s[6]%(nar_2)Focus on the sounds in your surroundings...%(end_2) "
+	"\0\s[6]%(nar_2)Gaining a better understanding of you emotions is valuable in gaining a better understanding of yourself...%(end_2)"
+	//"\0"
+	"\0\s[6]%(nar_2)Focus on your breathing...%(end_2)"
+
+	//chain dialogues (maybe?)
+	"\1\s[14]...\w8\0\s[0]Are you feeling alright? \w9\w9I can sense you're feeling a little down...\1\n.\w8.\w8.\w8\0\s[6] It's alright if you need some time alone..."
+	"\1\s[15]...!\w8\0\s[0]What is it? \w9\w9I can sense you're feeling excited...\w9\w9\1\n!!!\w8\0\s[2] Hm, \w7curious..."
+	"\1\s[11]...\w8\0\s[1]Is there something on your mind...?\1\n.\w8.\w8.\w8\_w[2000]\s[19]!!\w8\w8\0\s[5] I agree, \w7our new friend is certainly an interesting fellow..."
+	//"\1"
+	//"\1"
+
+	"\1\s[10]... \s[16]\_w[1500].\w8.\w8.\w8\_w[3000]\s[12]! \w8\w8\s[13]\w8\w8\0\s[0]Meditation takes some practice to perfect..."
+	//""
+	//""
+	//""
+	//""
+
+	"\0\s[0]Good evening, \w7my friend. \w9\w9Did you take some time today for just yourself? \w9\w9\s[5]Even a few moments of mindfulness may help to re-center the mind. \s[0]\w9\w9If you can't do that, \w7that's alright. \s[6]\w9\w9A few deep breaths can be just as helpful."
+	"\0\s[0]What color are you feeling like today, \w7my friend? \w9\w9I'm.\w9.\w9.\w9\s[1] \w9\w9feeling a little shy. \w9\w9Being in a new place... \w9\w9Meeting you... \w9\w9It's all quite new and exciting, \w7isn't it? \1\s[11]\w9\w9\0\n\n[half]%(nar_1)Small glows with purple agreeance, \w7but, \w7the streak of vibrant sunshine yellow that always seems to circle the edges of their gem remains.%(end_1)"
+	"\0\s[0]My friend, \w7did you know there are many different kinds of meditation? \w9\w9You may have heard of mindfulness meditation, \w7yes? \w9\w9\s[6]Being aware of the present moment... Of our bodies. \s[1]Er... Well, \w7band, \w7in my case as it were!"
+	"\0\s[0]Have you perhaps seen videos of monks chanting in monasteries? \w9\w9They often use prayers or mantras in their meditations. \w9\w9\s[1]If you had a mantra, \w7I wonder, \w7what would it be?"	
+	"\0\s[0]I often lament that I cannot know the joy of walking meditation... \w9\w9Heel, \w7sole, \w7toe. \w9\w9Heel, \w7sole, \w7toe..."	
+
+	
+	//(6) (Triggered by a late hour, perhaps?) Small seems to be nodding off, they had a big day today. Big chuckles and glows a gentle (5) gold, like a comforting nightlight.
+
+	/*
+	------------------------
+	(Could be triggered in the menu as a question. Eg; "How old are you and Small?")
+	Big: "How old are we?"
+	(0) Small lays their big, wobbly head to one side as they give the question some thought before they look at Big and give a non-committal shrug. 
+	Big: "We've... been around for quite some time. Come to think of it, we've been quite lucky to have stayed together so long. Albeit, it seems we had been forgotten for some time before you found (Our box/At the Swapmeet/From the Witch)"
+	Big pauses for a long thoughtful moment before continuing,: (1) "...Thank you for not separating us, User."
+	*/
+}
+
+OnKeroObserve : nonoverlap_pool
+{
+	"\0\s[6]%(nar_1)Big currently seems to be trying to focus on quiet meditation. \1\s[18]\w8\0Small creeps closer... \1\s[15]\w8\0and begins to tap repeatedly on the Big's band with their ring in a constant, \w7continuous, \w7metallic rhythm. \w8\s[3]\nBig's faceted jewel bleeds just a little into red \w5\s[0]before they sigh and fade into a soft blue.%(end_1)"
+	"\1\s[16]\0%(nar_1)Small seems to be deep in thought. \1\s[15]\w8\0They're smiling and glowing a beautiful gold. \w8They remind you of a ray of sunshine.%(end_1)"
+	"\1\s[18]\0%(nar_1)Small is trying to stand on their head, \1\s[19]\w7but the dome of their ring keeps making them fall over.\1\s[11]%(end_1)"
+	"\1\s[19]\0%(nar_1)Small's squishing up their face and their jewel seems to be cycling rapidly through their colors. \w8What could they be thinking about?%(end_1)"
+	"\0\s[0]Music can often help us process our emotions in ways we find hard to put into words. \1\s[15]\w9\w9\0\n%(nar_1)Small nods their head in rapid agreeance and begins to hum a tune.%(end_1)\w8\0\s[8]\n\nOh? \w9\w9What song are they singing? \w9\w9I'm not sure... \w9\w9I've never heard it before.\w9\1\s[17]\0\n%(nar_1)This seems to irritate Small, \1\s[19]\w8\0they wave their arms and hum louder, \w7their ring flushing a bright pink.%(end_1)\s[0]\n\nNevermind Small. \w9\w9Sometimes they get upset when they feel like they're not being heard. \w9\w9However, \w7if you really want a song... \w7\s[5]\_a[https://www.youtube.com/watch?v=dHg50mdODFM]why not try this one?\_a"
 }

@@ -5,7 +5,8 @@ OnFirstBoot
 	stroke = 0
 	LastTalk = ""
 	
-	"\1\s[10]\0\s[0]Hello, and welcome to the Simplicity Template, %(username).\w8 As the name implies, this template is very simple.\w8 You will notice there is not much here.\w8 That's on purpose!\w8 This template's primary goal is to make ghost creation less intimidating.\w8 You really need almost nothing to make a ghost;\w4 a basic shell with some interesting randomtalk can be an incredible and fun experience.\w8 So all those boring functions to do with email checking and such?\w8 Not here, unless you decide you want to add them.\w8 Don't let tedious functions tire you out before you can finish your ghost!\w8 Make something simple and fun, or start small and expand upon it later!\w8 Embrace the freedom of simplicity!"
+	
+	"\t\0\s[0]\1\s[16]\_w[3000]\1\s[10]...? \w8\s[13]???\w8\0\s[0].\w9.\w9.\w9\nHmm... \w9\w9\s[6]\w9\w9I sense a change in the energy of our surroundings... \w9\w9\1...\s[12]!\0\n\nIt's almost as if.\w9.\w9.\w9\s[8]\w9 we aren't the only ones here.\w9\w9\1\s[19]!!! \w8!!!!\w8\w8\s[11]...\x\0\s[3]Is someone out there? \w9\w9Whoever you are... \w9\w9maybe you would be interested in participating in some quiet meditation...\xI only ask that you do not disturb me...\w9\1\s[18]....."
 }
 
 OnInitialize
@@ -33,23 +34,23 @@ OnBoot
 	--
 	if _today == _user_birthday
 	{
-		"\0\s[0]It is %(username)'s birthday today.\w8 Happy birthday, %(username).\w8 Developer,\w4 you can add an interesting message here.\w8 It can be as long as you like.\w8 Or, you can remove it entirely."
+		//"\0\s[0]It is %(username)'s birthday today.\w8 Happy birthday, %(username).\w8 Developer,\w4 you can add an interesting message here.\w8 It can be as long as you like.\w8 Or, you can remove it entirely."
 	}
 	elseif _today == "1/1" //You can add whatever cool dates you want with more elseifs here
 	{
-		"\0\s[0]It's new year's day.\w8 Happy %(year),\w4 %(username)."
+		//"\0\s[0]It's new year's day.\w8 Happy %(year),\w4 %(username)."
 	}
 	else //Normal boot
 	{
-		"\0\s[0]Hello %(username).\w8 Good to see you."
-		"\0\s[0]Hello.\w8 Ready to make something cool?"
+		//"\0\s[0]Hello %(username).\w8 Good to see you."
+		//"\0\s[0]Hello.\w8 Ready to make something cool?"
 	}
 }
 
 OnClose
 {
-	"\0\s[0]Farewell."
-	"\0\s[0]Goodbye."
-	--
+	//"\0\s[0]Farewell."
+	//"\0\s[0]Goodbye."
+	//--
 	"\w8\w8\-" //This is what makes the ghost close (after a short pause), do not remove the \- , and MAKE SURE you don't use a \e before this point or it won't work
 }

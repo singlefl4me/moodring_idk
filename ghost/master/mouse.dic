@@ -32,17 +32,19 @@ OnMouseMove
 
 OnMouseMove.Sakura
 {
-	if reference4 == "head"
+	if reference4 == "face"
 	{
-		"\0\s[0]Petting??"
+		"\0\s[1]While I do appreciate a good polish, \w7it is so very distracting. \w9\w9\nMaybe some other time..."
+		"\0\s[1]I appreciate the sentiment, \w7but I am trying to focus..."
 	}
 }
 
 OnMouseMove.Kero
 {
-	if reference4 == "head"
+	if reference4 == "face"
 	{
-		"\1\s[10]Petting..."
+		"\1\s[19]...\_w[3000]\s[15]!!!"
+		"\1\s[15]!!!\w8\w8\0They seem very fond of that..."
 	}
 }
 
