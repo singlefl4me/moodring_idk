@@ -108,6 +108,14 @@ surface10-19
 
 surface10
 {
+	animation2.interval,always
+	animation2.pattern0,overlay,-1,0,0,0
+	animation2.pattern1,replace,1001,125,0,221
+	animation2.pattern2,replace,1002,125,0,221
+	animation2.pattern3,replace,1003,125,0,221
+	animation2.pattern4,replace,1004,125,0,221
+	animation2.pattern5,overlay,-1,125,0,221
+
 	collisionex0,face,region,smallcol0.png,0,255,0
 }
 surface11
