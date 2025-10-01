@@ -27,7 +27,7 @@ surface0-9
 	animation1.pattern5,overlay,103,120,0,0
 	animation1.pattern6,overlay,-1,120,0,0
 	
-	animation3.interval,rarely
+	animation3.interval,random,50
 	animation3.pattern0,overlay,200,0,0,0,0
 	animation3.pattern1,overlay,201,72,0,0,0
 	animation3.pattern2,overlay,202,72,0,0,0
@@ -93,7 +93,7 @@ surface9
 
 surface10-19
 {
-	animation3.interval,rarely
+	animation3.interval,random,50
 	animation3.pattern0,overlay,210,0,0,0,0
 	animation3.pattern1,overlay,211,0,0,0,0
 	animation3.pattern2,overlay,212,0,0,0,0
@@ -108,13 +108,13 @@ surface10-19
 
 surface10
 {
-	animation2.interval,always
+	animation2.interval,random,20
 	animation2.pattern0,overlay,-1,0,0,0
-	animation2.pattern1,replace,1001,125,0,221
-	animation2.pattern2,replace,1002,125,0,221
-	animation2.pattern3,replace,1003,125,0,221
-	animation2.pattern4,replace,1004,125,0,221
-	animation2.pattern5,overlay,-1,125,0,221
+	animation2.pattern1,replace,1001,83,0,221
+	animation2.pattern2,replace,1002,83,0,221
+	animation2.pattern3,replace,1003,83,0,221
+	animation2.pattern4,replace,1004,83,0,221
+	animation2.pattern5,overlay,-1,83,0,221
 
 	collisionex0,face,region,smallcol0.png,0,255,0
 }
